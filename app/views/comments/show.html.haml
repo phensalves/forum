@@ -1,0 +1,8 @@
+%p#notice= notice
+%p
+  %strong Author:
+  = @comment.author
+%p
+  %strong Body:
+  = @comment.body
+= link_to 'Back', post_comments_path
