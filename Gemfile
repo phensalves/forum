@@ -10,6 +10,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'haml'
 gem 'haml-rails'
+gem 'will_paginate', '~> 3.0.6'
+gem 'auto_increment'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Unicorn as the app server

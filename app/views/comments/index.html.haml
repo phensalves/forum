@@ -19,3 +19,8 @@
 = link_to 'Back', posts_path
 |
 = link_to 'New Comment', new_post_comment_path
+
+.apple_pagination
+  .page_info
+    = page_entries_info @posts
+  = will_paginate @posts, :container => false

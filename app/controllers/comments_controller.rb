@@ -3,7 +3,7 @@ class CommentsController < ApplicationController
 
   def index
     post = Post.find(params[:post_id])
-    @comments = post.comments
+    @comments = post.comments.paginate(page: params[:page], per_page: 10)
 
     respond_to do |format|
       format.html
