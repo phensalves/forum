@@ -12,14 +12,12 @@ gem 'haml'
 gem 'haml-rails'
 gem 'will_paginate', '~> 3.0.6'
 gem 'auto_increment'
-gem 'rspec-rails'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-# Use Unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn-rails'
 
-group :development, :test do
-  gem 'byebug'
+group :test do
+  gem 'rspec-rails'
 end
 
 group :development do
