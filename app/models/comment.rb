@@ -1,6 +1,6 @@
 class Comment < ActiveRecord::Base
-	validates :author, :presence true
-	validates :body, :presence true
+	validates :author, :presence => true
+	validates :body, :presence => true
 	validate :check_blacklist
 
   belongs_to :post

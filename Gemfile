@@ -12,6 +12,7 @@ gem 'haml'
 gem 'haml-rails'
 gem 'will_paginate', '~> 3.0.6'
 gem 'auto_increment'
+gem 'rspec-rails'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Unicorn as the app server
